@@ -21,7 +21,7 @@ const two = 2
 
 }
 
-function funkyFunction() {
+var funkyFunction = function() {
   return  function() {
     return 'FUNKY!'
   }
@@ -32,3 +32,5 @@ function funkyFunction() {
 // : you only need to modify the code below this line.
 
 var theFunk = funkyFunction()
+
+return theFunk
