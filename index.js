@@ -21,13 +21,14 @@ const two = 2
 
 }
 
-var funkyFunction = function() {
+function funkyFunction() {
   return  function() {
-    return "FUNKY!"
+    return 'FUNKY!'
   }
 
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // : you only need to modify the code below this line.
+
 var theFunk = funkyFunction()
